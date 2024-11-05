@@ -1,10 +1,9 @@
 <?php
-$www = [
-  '国語' => 70,
-  '数学' => 80
-];
+$num = 5;
 
-foreach ($www as $ke => $val) {
-  echo "{$ke}は{$val}点です";
-  echo '<br>';
+while ($num > 4) {
+  echo $num;
+  $num--;
 }
+
+$name = '太郎';
